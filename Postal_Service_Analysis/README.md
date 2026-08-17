@@ -68,10 +68,10 @@ Inorder to find the code and steps I have taken, please reffer this notebook : [
 - California state has the highest RCR with **~20%** of the customer being a repeat buyer.
 - Binders and Paper are the products having the highest RCR with **~15%** suggesting customer satisfaction towards these products
 -  The chart also suggest that products belonging to the Office Supplies category makes up most of the top results.
-# Things I learned from this project
+## Things I learned from this project
 This project helped me alot in understanding the core concepts of analysis like obtaining data, cleaning and manipulating it, and finally visulaising it through graphs and chart. But the most crucial part of this project has to be providing my insights, I tried my best in providing the most important information while keeping it concise.  
 I also learned alot  of new concepts and ideas of python while simultaneously reinforcing my previous knowledge. This project also made me realise how rich python libraries are, and how they can be used to  carry out a wide variety of tasks.
-# Conclusion
+## Conclusion
 This project tries to analyse the different aspects of a Delivery Service Company like information about the customer base, performance of differnt products
 based on their sales , etc. to provide actionable insights to the stakeholder and draw attention to areas needing improvements.  
 Lastly, I created this project because I wanted to get an understanding of the role an analyst play for a company. I had to scrap alot of ideas and rewrite entire blocks of code, but eventually I was able to create something that i am satisfied with. 
