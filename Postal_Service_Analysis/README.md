@@ -1,5 +1,5 @@
-<img width="1774" height="887" alt="Python_Project" src="https://github.com/user-attachments/assets/6e147a44-53c5-43bc-8296-8579f8b4a008" />
 # Delivery Service Analysis
+<img width="1774" height="887" alt="Python_Project" src="https://github.com/user-attachments/assets/6e147a44-53c5-43bc-8296-8579f8b4a008" />
 In this project, I will try to play the role of an analyst and provide my insights, based on the database of a Delivery Service Company in the USA. [Click here to see the database](Project_Resources/train.csv)
 ## Tools I used for the project
 - Python : It helped me analyse massive amount of data through different functions available. It also provided a number of useful libraries which were used in different areas of this project. Some of the libraries that were used are :
