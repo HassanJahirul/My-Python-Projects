@@ -1,7 +1,8 @@
+<img width="1774" height="887" alt="Python_Project" src="https://github.com/user-attachments/assets/6e147a44-53c5-43bc-8296-8579f8b4a008" />
 # Delivery Service Analysis
 In this project, I will try to play the role of an analyst and provide my insights, based on the database of a Delivery Service Company in the USA. [Click here to see the database](Project_Resources/train.csv)
 ## Tools I used for the project
-- Python : It helped me analyse massive amount of data through differnt functions available. It also provided a number of useful libraries which were used in different areas of this project. Some of the libraries that were used are :
+- Python : It helped me analyse massive amount of data through different functions available. It also provided a number of useful libraries which were used in different areas of this project. Some of the libraries that were used are :
   - Pandas : Provided a number of statistical functions to analyse the database. 
   - Matplotlib : After analysis was done, it helped me graph those findings.
   - Seaborn : It provided more advanced customisation to those graph.
@@ -63,7 +64,7 @@ Inorder to find the code and steps I have taken, please refer this notebook : [5
 - States belonging to the southern region maybe considered the least valuable among them because they have the lowest performance compared to the other states, with none of them crossing **$15k** in sales.
 ## 4. What is our company's Returning Customer Rate (RCR) ?
 RCR helps in understanding customer loyalty towards a company. Inorder to find useful information from this I decided to plot the RCR of top 5 states and top 5 products.  
-Inorder to find the code and steps I have taken, please reffer this notebook : [6_RCR](6_RCR.ipynb)  
+Inorder to find the code and steps I have taken, please refer this notebook : [6_RCR](6_RCR.ipynb)  
 **Graph :**  
 <img width="905" height="479" alt="Graph_6" src="https://github.com/user-attachments/assets/9f12727d-c548-4f51-9f35-2115911ccc6e" /> 
 **Insights :**
