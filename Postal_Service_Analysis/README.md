@@ -15,18 +15,18 @@ Before we approach to the questions, I performed some EDA to have a better grasp
 ### Q . Which region do most of our products get delivered to ?
 Through this analysis I wanted to see whether a particular region has more demand for our services over the others. After performing my analysis I obtained the graph below.  
 **Graph :**  
-<img width="501" height="411" alt="Graph_1" src="https://github.com/user-attachments/assets/a5650b2b-f56b-41ad-bef6-f1e6c42c46cf" /> 
+<img width="501" height="411" alt="Graph_1" src="https://github.com/user-attachments/assets/a5650b2b-f56b-41ad-bef6-f1e6c42c46cf" />  
 **Insights :**
 - There is almost an even split in between the west and the east region with both of them together, forming the major portion of our customers.
 - The southern region has a significantly lower portion, to solve this we may need to expand our reach there through region specific ads and campaign.
 ### Q . What delivery methods do our customers prefer ?  
-Inorder to have a better understanding of our customers preferences, I wanted to see what mode of delivery they preferred over the others. I also wanted see how differnet segments of our customer differed in their opinion. After performing my analysis, I obtained the graph below.  
+Inorder to have a better understanding of our customers preferences, I wanted to see what mode of delivery they preferred over the others. I also wanted see how different segments of our customer differed in their opinion. After performing my analysis, I obtained the graph below.  
 **Graph :**  
 <img width="1570" height="572" alt="Graph_2" src="https://github.com/user-attachments/assets/dc2396d7-aecb-4390-92f4-1d4f8191a23a" />
 **Insights :** 
 - There is only slight difference in preferences among all the three segments.
 - Major portion of our customer base (more than **half**) preferred standard class delivery.
-- Less than **10%** preferred same day delivery. We may have to lower the price or provide additional benifits inorder to make it more appealing to our customers.
+- Less than **10%** preferred same day delivery. We may have to lower the price or provide additional benifits to make it more appealing to our customers.
 - These data suggest that irrespective of the  segment, most of our customers are not concerned about how long it takes, for their products to get delivered.
 ## Main Analysis
 As mentioned earlier I divided my analysis into four questions, which I would be giving my insights on. They are :
@@ -44,21 +44,23 @@ I wanted to know how each category of products performed in terms of sales, so t
 Inorder to categories the products based on their demand among each customer segment, I decided to plot the products against the no. of deliveries made and divide it into three different plots for each segment, to compare how each of them differ from one another.  
  Inorder to find the code and steps I have taken, please refer this notebook : [4_Customer_Analysis](4_Customer_Analysis.ipynb)  
 **Graph :**  
-<img width="684" height="590" alt="Graph_4" src="https://github.com/user-attachments/assets/67cc509a-cda6-4f2d-8076-88de78ac8889" /> 
+<img width="684" height="590" alt="Graph_4" src="https://github.com/user-attachments/assets/67cc509a-cda6-4f2d-8076-88de78ac8889" />  
+
+
 **Insights :**
 - Binders and paper are the most selling product for each segment.
 - Office supplies is the most popular category of products, making up around **60%** of the total products delivered for consumer segment.  
 - Tech products is the least popular category with most of their items making it to the bottom of the list for segment.
 ## 3. What are the most valuable states to our company ?
 I was curious in finding out how each state contributed to our company not only in terms of sales but also the no. of products delivered and whether it holds some connection to the region, to find this I decided to plot the total sales against the total product delivered of each states over 2017 and filter out the top 10 results.  
-Inorder to find the code and steps I have taken, please reffer this notebook : [5_Most_valuable_states](5_Most_valuable_states.ipynb)  
+Inorder to find the code and steps I have taken, please refer this notebook : [5_Most_valuable_states](5_Most_valuable_states.ipynb)  
 **Graph :**  
 <img width="623" height="464" alt="Graph_5" src="https://github.com/user-attachments/assets/bbc45c40-86f5-46f7-9e61-bb3cadf25f2d" />  
 **Insights :**
 - California and New York are clearly one of the most valuable states, pulling in the highest total sales and also where majority of our products were delivered. 
-- The rest are clustered togeter at the left hand corner of the graph, this highlights the general trend were low no of deliveries corresponds to lower sales.
+- The rest are clustered together at the left hand corner of the graph, this highlights the general trend were low no of deliveries corresponds to lower sales.
 - Michigan had generated a relatively higher revenue **~$27k** considering that some of the lowest no of deliveries were made there. 
-- States belonging to the southern region maybe considered the least valuable among them because they have the lowest performance compared to the other states, with none of them crosssing **$15k** in sales.
+- States belonging to the southern region maybe considered the least valuable among them because they have the lowest performance compared to the other states, with none of them crossing **$15k** in sales.
 ## 4. What is our company's Returning Customer Rate (RCR) ?
 RCR helps in understanding customer loyalty towards a company. Inorder to find useful information from this I decided to plot the RCR of top 5 states and top 5 products.  
 Inorder to find the code and steps I have taken, please reffer this notebook : [6_RCR](6_RCR.ipynb)  
@@ -72,7 +74,7 @@ Inorder to find the code and steps I have taken, please reffer this notebook : [
 This project helped me alot in understanding the core concepts of analysis like obtaining data, cleaning and manipulating it, and finally visulaising it through graphs and chart. But the most crucial part of this project has to be providing my insights, I tried my best in providing the most important information while keeping it concise.  
 I also learned alot  of new concepts and ideas of python while simultaneously reinforcing my previous knowledge. This project also made me realise how rich python libraries are, and how they can be used to  carry out a wide variety of tasks.
 ## Conclusion
-This project tries to analyse the different aspects of a Delivery Service Company like information about the customer base, performance of differnt products
+This project tries to analyse the different aspects of a Delivery Service Company like information about the customer base, performance of different products
 based on their sales , etc. to provide actionable insights to the stakeholder and draw attention to areas needing improvements.  
 Lastly, I created this project because I wanted to get an understanding of the role an analyst play for a company. I had to scrap alot of ideas and rewrite entire blocks of code, but eventually I was able to create something that I am satisfied with. 
 
